@@ -1,0 +1,35 @@
+.equipo {
+    width: 100%;
+    /* background-color: #D9F7E9; */
+    padding: 32px;
+    /*Cuando trabajamos con paddings o border suele pasar que se mueven mas de su tamaño normal para ello usamos
+    box-sizing: border box*/
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px; 
+
+    /* se agrego para posicionar el seleccionador de color */
+    position: relative;
+
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    /* border-bottom: 4px solid #57C278 ; */
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

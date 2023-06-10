@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';//LIBRERIA QUE NOS AYUDA A HACER INTERFACES GRAFICAS
+import ReactDOM from 'react-dom/client'; //NOS AYUDA A TRABAJAR CON REACT Y CON EL DOM DEL NAVEGADOR
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
